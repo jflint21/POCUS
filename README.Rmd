@@ -67,7 +67,9 @@ As with any imaging technique, the location of the anatomy of interest informs p
 
 Place the probe at the intersection of the right mid-clavicular line and costal margin. Angle the transducer such that the probe marker points toward the left shoulder. The gallbladder should appear as an anechoic (dark) oval structure.  
 
-Image: POCUS Gallbladder  
+```{r gallbladder, fig.cap = "A normal gallbladder on ultrasound."}
+knitr::include_graphics(here::here("images", "POCUS_Gallbladder.png"))
+``` 
 
 A diagnosis of cholecystitis is suggested when the following conditions are found:  
 

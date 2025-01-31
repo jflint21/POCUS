@@ -100,7 +100,10 @@ costal margin. Angle the transducer such that the probe marker points
 toward the left shoulder. The gallbladder should appear as an anechoic
 (dark) oval structure.
 
-Image: POCUS Gallbladder
+<img src="images/POCUS_Gallbladder.png" alt="A normal gallbladder on ultrasound." width="741" />
+<p class="caption">
+A normal gallbladder on ultrasound.
+</p>
 
 A diagnosis of cholecystitis is suggested when the following conditions
 are found:
