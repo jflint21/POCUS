@@ -1,28 +1,28 @@
 ---
-title: "Untitled"
-author: "Barry Flint"
+title: "Point-of-Care Ultrasound for Gastroenterology"
+author: "Jasper Flint"
 output: md_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE, fig.align = 'center')
 ```
 
-## R Markdown
+# Introduction to Point-of-Care Ultrasound (POCUS)
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars}
-summary(cars)
+```{r ssa-logo, fig.cap = "Butterfly probes are a common tool for POCUS studies."}
+knitr::include_graphics(here::here("images", "Butterfly_Probe.jpg"))
 ```
 
 ## Including Plots
 
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
+```{r pressure}
 plot(pressure)
 ```
 
